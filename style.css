@@ -1,0 +1,67 @@
+
+.mylinks{
+    float: right;
+    font-size: x-large;
+    width: 50%;
+    margin: 100px 80px 50px 60px;
+   overflow: hidden;
+}
+.mylinks a:hover{
+background: black;
+
+}
+  
+.top-box{
+    border: 5px solid rgb(0, 0, 0);
+
+}
+.middle-box{
+    border: 5px solid rgb(0, 0, 0);
+}
+.last-box{
+    border: 5px solid rgb(0, 0, 0);  
+}
+.aak{
+    width:90%;
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+    margin: 20spx auto;
+    padding: 35px;
+}
+.aak ul{
+    padding: 5px;
+    margin: 5px;
+}
+.aak ul li{
+    list-style: none;
+    float: left;
+    width: 25%;
+    height: 250px;
+    background: rgb(6, 243, 6);
+    margin: 35px 35px 0px 50px;
+    box-sizing: border-box;
+    border: 5px solid rgb(236, 9, 9);
+    padding: 5px;
+}
+.aak ul li:hover{
+    opacity: 0.65;
+
+}
+.aak ul li .title:hover{
+    background-color:rgb(0, 0, 255);
+    color: rgb(214, 226, 214);
+}
+.aak ul li .title{
+    width: 100%;
+    height: 60px;
+    line-height: 50px;
+    background: rgb(252, 214, 166);
+    text-align:left;
+    overflow: hidden;
+}
+@media screen and (max-width:900px){
+    .aak ul li{
+        width: 50%;
+        margin: 30px;
+    }
+}

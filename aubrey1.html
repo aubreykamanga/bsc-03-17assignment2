@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+	<!-- <link rel="stylesheet" type="text/css" href="style2.css"> -->
+	<link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+		<div class="top-box">
+				<h1 align="center">Aubrey Kamanga-Chanco Student</h1>
+				<img src ="aubrey.jpg" height="200px" >
+				
+				<div class= "mylinks">
+					<a href="http://www.aubreykamanga@github.com"> GitHub </a>
+					<a href="http://www.aubrey@facebook.com">-facebook </a>
+					<a href="http://www.aubreykmng@gmail.com">-Email Address </a>
+		
+				</div>
+				</div>
+				<br>
+
+        
+        
+		<div class="middle-box">
+			
+
+				
+    <form onsubmit="load()">
+    	<h2>USER PROJECT FORM</h2>
+    	<div class="projectInfo">
+    	<p class="name">
+    		<label for="name">PROJECT NAME</label><br />
+    		<input type="text" name="projname" id="projname" value="" placeholder="Enter project...">
+    	</p>
+    	
+    	<p class="projectDescription">
+    		<label for="pd">PROJECT DESCRIPTION</label><br />
+    		<textarea id="projectDescription" placeholder="Enter project details"></textarea>
+    	</p>
+    	<p class="Date">
+    		<label for="datelines">Date</label><br />
+    		<input type="date" name="deadline" id="deadline" value="" >
+    	</p>
+    	
+    	
+    	<p class="BUTTUN">
+    		<input type="submit" name="Submit" id="Submit" value="Submit" onclick="save()">
+                &nbsp;
+    		<input type="reset" name="Submit" id="clear" value="clear" onclick="clean()">
+            <a href="aubrey2.html" onclick="redirecting">Details</a>
+        </p>
+		</div>
+	</div>
+	</form>
+<br>
+	<div class="last-box">
+	   <form onsubmit="work()">
+    	<h2>WORK EXPRIENCE</h2>
+    	<div class="EXPRIENCE">
+    	<p class="Workdetals">
+    		<label for="name">INSTITUTION</label><br />
+    		<input type="text" name="Workdetals" id="Workdetals" value="" placeholder="Enter type of work..">
+    	</p>
+    	
+    	
+    	<p class="Date">
+    		<label for="datelines"> From </><br />
+    		<input type="date" name="deadline" id="from" value="" >
+		</p>
+		
+		<p class="Date">
+    		<label for="datelines"> To </><br />
+    		<input type="date" name="deadline" id="To" value="" >
+    	</p>
+    	
+    	
+    	<p class="BUTTUN">
+    		<input type="submit" name="Submit" id="Submit" value="Submit" onclick="show()">
+                &nbsp;
+    		<input type="reset" name="Submit" id="clear" value="clear" onclick="cleared()">
+			 <a href="aubrey2.html" onclick="redirect()">Details</a>
+			 
+			 
+        </p>
+		</div>
+	</div>
+    </form>
+   
+
+   
+</body>
+</html>
